@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+<<<<<<< HEAD
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VitrineComponent } from './vitrine/vitrine.component';
@@ -18,6 +19,15 @@ import { EsqueciComponent } from './esqueci/esqueci.component';
     CestaComponent,
     LoginComponent,
     EsqueciComponent
+=======
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+>>>>>>> fcfe62346f3a33b739c2184027934494c5d10c6a
   ],
   imports: [
     BrowserModule,

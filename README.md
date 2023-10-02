@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Web05
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+=======
+# P1
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+>>>>>>> fcfe62346f3a33b739c2184027934494c5d10c6a
 
 ## Development server
 

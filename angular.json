@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "web05": {
+=======
+    "p1": {
+>>>>>>> fcfe62346f3a33b739c2184027934494c5d10c6a
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/web05",
+=======
+            "outputPath": "dist/p1",
+>>>>>>> fcfe62346f3a33b739c2184027934494c5d10c6a
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +68,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "web05:build:production"
             },
             "development": {
               "browserTarget": "web05:build:development"
+=======
+              "browserTarget": "p1:build:production"
+            },
+            "development": {
+              "browserTarget": "p1:build:development"
+>>>>>>> fcfe62346f3a33b739c2184027934494c5d10c6a
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +86,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "web05:build"
+=======
+            "browserTarget": "p1:build"
+>>>>>>> fcfe62346f3a33b739c2184027934494c5d10c6a
           }
         },
         "test": {
@@ -94,8 +113,11 @@
         }
       }
     }
+<<<<<<< HEAD
   },
   "cli": {
     "analytics": "0bf9ecc1-06a4-447a-907e-c78c9036e1b1"
+=======
+>>>>>>> fcfe62346f3a33b739c2184027934494c5d10c6a
   }
 }
